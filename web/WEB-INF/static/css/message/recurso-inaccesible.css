@@ -1,0 +1,50 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    min-width: 400px;
+}
+
+header{
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+    background-image: linear-gradient(135deg, #f4ddff 0, #d0c3ff 50%, #afa9d6 100%);
+}
+
+header > div:nth-child(2){
+    padding: 0px 40px;
+}
+
+header > div:nth-child(2) > a:nth-child(1){
+    margin: 0px 25px;
+}
+
+main{
+    height: 70%;
+}
+
+footer{
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+    background-image: linear-gradient(135deg, #f4ddff 0, #d0c3ff 50%, #afa9d6 100%);
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    padding: 10px 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
