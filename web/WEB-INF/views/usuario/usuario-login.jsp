@@ -4,10 +4,10 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title> Cinema Life </title>
+        <title> simsons </title>
 
         <!-- References -->
-        <meta name="author" content="Julian David Ramos Gomez - ivaaan.bulgaria@gmail.com" />
+        <meta name="author" content="Ivan Emilov - ivaaan.bulgaria@gmail.com" />
         <meta name="description" content=" Cinema Life - Login " />
 
         <!-- Configuration -->
@@ -24,15 +24,15 @@
         <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
 
         <!-- Style Sheet Links -->
-        <link rel="stylesheet" href="public/css/partial/header.css"/>
+        <link rel="stylesheet" href="public/css/partials/header.css"/>
         <link rel="stylesheet" href="public/css/usuario/usuario-login.css"/>
         <link rel="stylesheet" href="public/css/partial/footer.css"/>
     </head>
     <body>
-
+        
         <div id="container">
-
-            <%--<%@include file="../partial/header.jspf" %>--%>
+                
+            <%@include file="../partials/header.jspf" %>
             <main>
                 <h2>Login</h2>
 
@@ -66,7 +66,7 @@
                     </div>
                 </form>        
             </main>
-            <%--<%@include file="../partial/footer.jspf" %>--%>
+            <%@include file="../partials/footer.jspf" %>
 
         </div>
 

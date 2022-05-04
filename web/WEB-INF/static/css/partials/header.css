@@ -1,0 +1,32 @@
+.page-header {
+    height: 5rem;
+    
+    border-bottom: solid .1rem #ccc;
+    
+    display: flex;
+    /*flex-direction: column;*/ 
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.page-header .logo {
+    height: 100%;
+    padding: 1rem;
+}
+
+.page-header .logo img {
+    height: 100%;
+    width: auto;
+}
+
+.page-header .user {
+    height: 100%;
+    padding: 1rem;
+}
+
+.page-header .user img {
+    height: 100%;
+    width: auto;
+}

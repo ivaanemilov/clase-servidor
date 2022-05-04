@@ -23,7 +23,7 @@
         <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
 
         <!-- Style Sheet Links -->
-        <link rel="stylesheet" href="public/css/partial/header.css"/>
+        <link rel="stylesheet" href="public/css/partials/header.css"/>
         <link rel="stylesheet" href="public/css/visita/visita-landing.css"/>
         <link rel="stylesheet" href="public/css/partial/footer.css"/>
     </head>
@@ -31,14 +31,14 @@
 
         <div id="container">
 
-            <%@include file="../partial/header.jspf" %>
+            <%@include file="../partials/header.jspf" %>
             <main>
                 <h1> Estas en la Pagina de Inicio </h1>
                 <img src="public/img/simsons.png" alt="los simsons"/>
                 <!--<img src="public/img/astronauta.jpg" alt="astronauta"/>-->
                 <h2> <a href="?cmd=usuario-login">Acceder </h2>
             </main>
-            <%@include file="../partial/footer.jspf" %>
+            <%@include file="../partials/footer.jspf" %>
 
         </div>
         <script src="public/js/visita/visita-landing.js"></script>
